@@ -29,6 +29,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+hr.IntroDivider /*Added this as rather than sift through a bunch of uncommented classes, id rather do one I dont need to find and just know it does what it says on the tin.*/
+{
+	border-top: 3px solid #bbb;
+}
+
 body {
 	line-height: 1;
 }
